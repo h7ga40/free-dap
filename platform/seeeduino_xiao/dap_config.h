@@ -34,9 +34,9 @@
 #include "hal_gpio.h"
 
 /*- Definitions -------------------------------------------------------------*/
-HAL_GPIO_PIN(SWCLK_TCK,    B, 9)
-HAL_GPIO_PIN(SWDIO_TMS,    A, 7)
-HAL_GPIO_PIN(TDI,          A, 5)
+HAL_GPIO_PIN(SWCLK_TCK,    A, 7)
+HAL_GPIO_PIN(SWDIO_TMS,    A, 5)
+HAL_GPIO_PIN(TDI,          A, 2)
 HAL_GPIO_PIN(TDO,          A, 9)
 HAL_GPIO_PIN(nTRST,        B, 8)
 HAL_GPIO_PIN(nRESET,       A, 6)
