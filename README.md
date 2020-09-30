@@ -56,4 +56,12 @@ Additionally configuration file must provide basic initialization and control fu
  * DAP_CONFIG_CONNECT_JTAG()
  * DAP_CONFIG_LED()
 
+## Build
 
+### GitHub Codespaces
+
+```bash
+cd platform/seeeduino_xiao_cmsis_v2/make
+make -j
+python3 ~/uf2conv.py -c -b 0x2000 -o build/free_dap.uf2 build/free_dap.elf
+```
