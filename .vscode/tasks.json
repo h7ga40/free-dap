@@ -1,0 +1,55 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build seeeduino_xiao_vcp",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "-j"
+            ],
+            "options": {
+                "cwd": "platform/seeeduino_xiao_vcp/make"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "clean seeeduino_xiao_vcp",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "options": {
+                "cwd": "platform/seeeduino_xiao_vcp/make"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "write seeeduino_xiao_vcp",
+            "type": "shell",
+            "command": "bossac",
+            "args": [
+                "-e",
+                "-w",
+                "-v",
+                "-b",
+                "-o",
+                "0x2000",
+                "-R",
+                "build/free_dap.bin"
+            ],
+            "options": {
+                "cwd": "platform/seeeduino_xiao_vcp/make"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe",
+		"terminal.integrated.shellArgs.windows": [
+			"--login",
+			"-i"
+		],
+		"terminal.integrated.env.windows": {
+			"PATH": "${env:HOMEDRIVE}${env:HOMEPATH}\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\bin;${env:HOMEDRIVE}${env:HOMEPATH}\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\bossac\\1.8.0-48-gb176eee;${env:HOMEDRIVE}${env:HOMEPATH}\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.10.0-arduino7\\bin;${env:HOMEDRIVE}${env:HOMEPATH}\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.10.0-arduino7\\share\\openocd\\scripts;C:\\Python39",
+			"CHERE_INVOKING": "1",
+			"MSYS2_PATH_TYPE": "inherit",
+			"MSYSTEM": "MINGW64",
+			"INCLUDES": "${env:HOMEDRIVE}${env:HOMEPATH}/AppData/Local/Arduino15/packages/Seeeduino/tools/CMSIS/5.4.0/CMSIS/Core/Include ${env:HOMEDRIVE}${env:HOMEPATH}/AppData/Local/Arduino15/packages/Seeeduino/tools/CMSIS/5.4.0/CMSIS/DSP/Include ${env:HOMEDRIVE}${env:HOMEPATH}/AppData/Local/Arduino15/packages/Seeeduino/tools/CMSIS-Atmel/1.2.1/CMSIS-Atmel/CMSIS/Device/ATMEL ${env:HOMEDRIVE}${env:HOMEPATH}/AppData/Local/Arduino15/packages/Seeeduino/hardware/samd/1.8.1/cores/arduino ${env:HOMEDRIVE}${env:HOMEPATH}/AppData/Local/Arduino15/packages/Seeeduino/hardware/samd/1.8.1/variants/wio_terminal"
+		}
+	}
+}
